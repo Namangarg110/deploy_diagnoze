@@ -1,8 +1,6 @@
 pandas
 Flask==1.1.2
-imbalanced_learn==0.8.0
 opencv_python==4.5.1.48
-Keras==2.4.3
 numpy==1.19.5
 Werkzeug==1.0.1
 tensorflow==2.4.1
