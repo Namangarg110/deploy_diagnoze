@@ -12,3 +12,4 @@ tensorflow-cpu
 imblearn==0.0
 scikit_learn==0.24.1
 h5py==2.10.0
+gunicorn
