@@ -91,7 +91,7 @@ def diabetes():
         st= int(request.form['st'])
         ins=int(request.form['ins'])
         bmi=float(request.form['bmi'])
-        DiaPedi=int(request.form['DiaPedi'])
+        DiaPedi=float(request.form['DiaPedi'])
         test_data =[[preg,gluc,bp,st,ins,bmi,DiaPedi,age]]
         test = pd.DataFrame(test_data,columns=["preg", "gluc", "bp", "st", "ins", "bmi", "DiaPedi", "age"])
         diab= load_diab()

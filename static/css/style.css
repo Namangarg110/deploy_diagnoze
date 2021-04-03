@@ -710,4 +710,25 @@ font-weight: 600;
 }
 
 
+.tensor{
+    float: right;
+     margin-top: -20px;
+  }
+  .flow{
+    color: white; 
+    text-align: right; 
+    padding-right: 30px;
+  }
+  .flow img{
+    width: 30px; 
+    height: 30px; 
+    padding: 5px;
+  }
+
+  .tfo{
+      color: orange;
+    }
+    .tfg{
+      color: grey;
+    }
 /* section3 end */
