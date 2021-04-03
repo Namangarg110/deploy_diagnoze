@@ -1,4 +1,6 @@
 from flask import Flask,render_template,url_for,request
+import sys
+sys.path.append('/usr/local/lib/python2.7/dist-packages')
 import pickle
 import pandas as pd
 import numpy as np
